@@ -1,0 +1,120 @@
+/* Stilurile CSS */
+
+/* Stilurile pentru pagina de contact */
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Înălțimea minimă a paginii pentru a acoperi întregul ecran */
+    background-color: #f4f4f4; /* Fundal gri deschis */
+    padding: 20px; /* Spațiere generală */
+    box-sizing: border-box; /* Asigură includerea marginilor și a padding-ului în dimensiunile elementului */
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-item img {
+    width: 20px; /* Ajustăm dimensiunile imaginilor */
+    margin-right: 10px; /* Spațiu între imagine și text */
+}
+
+
+/* Stilurile pentru titlu */
+.title-container {
+    text-align: center; /* Aliniere text la centru */
+    margin-bottom: 50px; /* Spațiu între titlu și formular */
+}
+
+.title-container h1 {
+    margin: 0; /* Elimină marginile implicite */
+    font-size: 36px; /* Mărimea fontului */
+    color: #333; /* Culoarea textului */
+}
+
+/* Stilurile pentru containerul formularului */
+.container {
+    background-color: #9fa2d5; /* Fundal alb */
+    border-radius: 10px; /* Rotunjire margini */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Umbra */
+    padding: 30px; /* Spațiere interioară */
+    width: 100%; /* Lățimea maximă */
+    max-width: 600px; /* Lățime maximă pentru a păstra aspectul plăcut */
+    text-align: center; /* Aliniere pe mijloc */
+    margin: 0 auto; /* Margine auto pentru a centra */
+}
+
+/* Stilurile pentru formular */
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container input[type="text"],
+.container input[type="email"],
+.container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.container textarea {
+    height: 150px; /* Înălțimea textarei */
+}
+
+/* Stilurile CSS pentru buton */
+.container button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #007bff; /* Culoare buton albastru */
+    color: #fff; /* Culoare text buton */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.container button:hover {
+    background-color: #0056b3; /* Culoare buton la hover */
+}
+
+
+/* Stilurile pentru footer */
+footer {
+    margin-top: 50px; /* Spațiu între formular și footer */
+    text-align: center; /* Aliniere text la centru */
+    width: 100%; /* Lățimea maximă */
+    position: fixed; /* Poziționare fixă pentru a fixa footer-ul în partea de jos a paginii */
+    bottom: 0; /* Poziționare la partea de jos */
+    background-color: #333; /* Culoare fundal footer */
+    color: #fff; /* Culoare text */
+    padding: 20px 0; /* Spațiere internă */
+}
+
+.home-button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #007bff; /* Culoare buton albastru */
+    color: #fff; /* Culoare text buton */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px; /* Spațiu între butonul "Acasă" și datele de contact */
+}
+
+.home-button:hover {
+    background-color: #0056b3; /* Culoare buton la hover */
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabana Lotrioara</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header-container">
+        <div class="title-container">
+            <h1>Cabana Lotrioara</h1>
+        </div>
+        <div class="buttons-container">
+            <button onclick="openLocation()">Locație</button>
+            <button onclick="openReservation()">Rezervă</button>
+            <button onclick="openContact()">Contact</button>
+        </div>
+    </header>
+    
+    <div class="container">
+        <h2>Poze</h2>
+        <div class="gallery">
+            <img src="IMG_5028.jpg" alt="Poza 1">
+            <img src="IMG_5039.jpg" alt="Poza 2">
+        </div>
+
+        <h2>Descriere</h2>
+        <p>Cabana Lotrioara este situată în județul Sibiu, satul Lotrioara, numărul 6, la poalele munților Cindrel. Dispune de 3 dormitoare, oferind în total 10 locuri de dormit. Cele 2 băi sunt complet utilate pentru confortul dumneavoastră. Bucătăria este complet utilată pentru a vă prepara propriile mese. Livingul spațios este deschis și include un semineu, perfect pentru serile petrecute în compania prietenilor sau familiei.</p>
+
+        <h2>Servicii</h2>
+        <p>Cabana Lotrioara oferă o serie de servicii pentru o ședere plăcută:</p>
+        <ul>
+            <li>3 dormitoare pentru 10 persoane</li>
+            <li>2 băi complet utilate</li>
+            <li>Bucătărie complet utilată</li>
+            <li>Living spațios cu semineu</li>
+            <li>Loc pentru foc de tabără</li>
+            <li>Râu lângă cabană</li>
+            <li>10 locuri de parcare</li>
+            <li>Filigorie cu grătar și cuptor din cărămidă</li>
+        </ul>
+
+        <h2>Preturi și Oferte</h2>
+        <div class="pricing-offers">
+            <div class="offer">
+                <h3>Pret cabana pe noapte</h3>
+                <p>750 RON</p>
+            </div>
+            <div class="offer">
+                <h3>Oferta la 2 nopți a 3-a gratis</h3>
+                <p>1.500 RON</p>
+            </div>
+            <div class="offer">
+                <h3>Vacanța de o săptămână</h3>
+                <p>3.850 RON</p>
+            </div>
+        </div>
+
+        <h2>Rezervări</h2>
+        <p>Pentru rezervări accesati butonul de sus sau pentru întrebări, ne puteți contacta la adresa de e-mail <a href="mailto:contact@cabanalotrioara.com">contact@cabanalotrioara.com</a> sau la numărul de telefon <a href="tel:+40737905064">+40737905064</a>.</p>
+        <p>De asemenea, ne puteți găsi și pe platformele de rezervări <a href="https://www.booking.com">Booking.com</a> și <a href="https://www.travelminit.com">Travelminit</a>.</p>
+
+        <h2>Mai multe poze</h2>
+        <div class="more-gallery">
+            <div><img class="small-image" src="IMG_5039.jpg" alt="Poza 3"><span></span></div>
+            <div><img class="small-image" src="IMG_5036.jpg" alt="Poza 4"><span></span></div>
+            <div><img class="small-image" src="IMG_5038.jpg" alt="Poza 5"><span></span></div>
+            <div><img class="small-image" src="PHOTO-2024-05-24-08-35-58.jpg" alt="Poza 6"><span></span></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="copyright">
+            &copy; Cabana Lotrioara 2024. Toate drepturile rezervate.
+        </div>
+    </footer>
+
+    <!-- Scripturile -->
+    <script src="https://www.gstatic.com/firebasejs/9.1.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.1.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.1.0/firebase-firestore.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

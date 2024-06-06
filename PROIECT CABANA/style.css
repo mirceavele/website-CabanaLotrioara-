@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #454645; /* Schimbăm culoarea fundalului în gri deschis */
+}
+
+.title-container {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.title-container h1 {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background-image: url('c:\Users\sbmir\Downloads\IMG_5027.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+    z-index: 0;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+.description h2 {
+    margin-top: 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.gallery img {
+    max-width: 45%;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .copyright {
+    font-size: 14px;
+}
+
+.more-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.more-gallery .small-image {
+    max-width: calc(50% - 10px); /* Setează lățimea maximă pentru fiecare poză (50% din lățimea containerului minus spațiul între poze) */
+    margin: 5px; /* Adaugă un spațiu între poze */
+    border-radius: 5px;
+}
+
+.more-gallery div {
+    position: relative;
+    flex: 1 1 calc(50% - 10px); /* Face div-urile care conțin imagini și texte să fie poziționate în două coloane */
+    margin: 5px;
+}
+
+.more-gallery div span {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 3px 5px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.buttons-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.buttons-container button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons-container button:hover {
+    background-color: #0056b3;
+}
+
+.header-container {
+    text-align: center;
+    position: relative;
+    height: 300px;
+    background-image: url('IMG_0395.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+}
+
+.buttons-container {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.extra-button {
+    /* Stilizează butonul suplimentar după necesități */
+}
+.pricing-offers {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.offer {
+    flex: 0 1 calc(30% - 10px);
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.offer h3 {
+    margin-top: 0;
+}
+
+.offer p {
+    margin-bottom: 0;
+}
+

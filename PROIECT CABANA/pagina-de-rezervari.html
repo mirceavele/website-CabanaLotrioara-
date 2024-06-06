@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rezervări - Cabana Lotrioara</title>
+    <link rel="stylesheet" href="rezervari.css">
+</head>
+<body>
+    <!-- Imagine blurată -->
+    <div class="background-image"></div>
+    
+    <div>
+        <h1>Rezervări la Cabana Lotrioara</h1>
+        <button onclick="goBack()" class="back-button">Înapoi</button> <!-- Butonul de back -->
+        <div class="container">
+            <form>
+                <h2>Introdu numele:</h2>
+                <input type="text" id="nume" placeholder="Numele tău">
+
+                <h2>Introdu numărul de telefon:</h2>
+                <input type="text" id="telefon" placeholder="Numărul tău de telefon">
+
+                <h2>Introdu data de rezervare:</h2>
+                <input type="date" id="data">
+                <br>
+                <button type="button" id="butonSubmit">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script>
+        function goBack() {
+            window.location.href = 'Untitled-1.html'; // Redirecționează utilizatorul înapoi pe pagina principală
+        }
+    </script>
+</body>
+</html>

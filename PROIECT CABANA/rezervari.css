@@ -1,0 +1,84 @@
+/* Stilurile pentru pagina de rezervări */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fundal gri deschis */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px; /* Spațiu de la marginea de sus a paginii */
+    color: #333; /* Culoare text */
+}
+
+.container {
+    background-color: #fff; /* Fundal alb */
+    border-radius: 10px; /* Rotunjire margini */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Umbra */
+    padding: 30px; /* Spațiere interioară */
+    width: 80%; /* Lățimea containerului */
+    max-width: 600px; /* Lățime maximă pentru a păstra aspectul plăcut */
+    margin: 0 auto; /* Centrare pe orizontală */
+}
+
+.container h2 {
+    margin-top: 20px; /* Spațiu între titluri și input-uri */
+    color: #0056b3; /* Culoare titluri */
+}
+
+.container input[type="text"],
+.container input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px; /* Spațiu între input-uri */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.container button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #007bff; /* Culoare buton albastru */
+    color: #fff; /* Culoare text buton */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px; /* Spațiu între buton și input-uri */
+}
+
+.container button:hover {
+    background-color: #0056b3; /* Culoare buton la hover */
+}
+/* Stilurile pentru butonul de back */
+.back-button {
+    margin-top: 20px; /* Spațiere între buton și titlu */
+    padding: 15px 30px; /* Dimensiunile butonului */
+    font-size: 18px; /* Mărimea textului */
+    background-color: #007bff; /* Culoare buton albastru */
+    color: #fff; /* Culoare text buton */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Efect de tranziție pentru culoare */
+}
+
+.back-button:hover {
+    background-color: #0056b3; /* Culoare buton la hover */
+}
+/* Stilurile pentru imaginea blurată */
+.background-image {
+    position: fixed; /* Imaginea rămâne fixă în timp ce utilizatorul derulează pagina */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('PHOTO-2024-05-24-08-35-58.jpg'); /* Înlocuiește 'calea-catre-imagine' cu calea către imaginea blurată */
+    background-size: cover;
+    filter: blur(10px); /* Aplică efect de blur */
+    z-index: -1; /* Plasează imaginea sub conținutul paginii */
+}
+
